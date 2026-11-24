@@ -221,3 +221,20 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Dataset files
+data/*.csv
+data/*.json
+data/*.zip
+data/raw/
+data/processed/
+
+# Trained models
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.h5
+*.keras
+
+# macOS
+.DS_Store
