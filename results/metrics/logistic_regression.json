@@ -1,37 +1,67 @@
 {
+  "training": {
+    "rows": 70000,
+    "selected_C": 1.0,
+    "accuracy": 0.7484571428571428,
+    "tfidf_fit_seconds": 0.25963616700000003,
+    "training_seconds": 0.4602178750000001,
+    "trials": [
+      {
+        "C": 0.1,
+        "training_accuracy": 0.6913714285714285,
+        "validation_accuracy": 0.6737333333333333,
+        "validation_f1": 0.6506282124500286,
+        "classifier_fit_seconds": 0.07737400000000005
+      },
+      {
+        "C": 1.0,
+        "training_accuracy": 0.7484571428571428,
+        "validation_accuracy": 0.6754,
+        "validation_f1": 0.6646001239925604,
+        "classifier_fit_seconds": 0.20058170800000008
+      },
+      {
+        "C": 10.0,
+        "training_accuracy": 0.7931,
+        "validation_accuracy": 0.6625333333333333,
+        "validation_f1": 0.6581577525661805,
+        "classifier_fit_seconds": 0.4002119590000002
+      }
+    ]
+  },
   "validation": {
-    "rows": 142777,
-    "accuracy": 0.6914138831884687,
-    "majority_accuracy": 0.5037576080180981,
-    "precision": 0.7073671677332937,
-    "recall": 0.6607994438651373,
-    "f1": 0.6832908025734105,
+    "rows": 15000,
+    "accuracy": 0.6754,
+    "majority_accuracy": 0.5,
+    "precision": 0.6874732791791364,
+    "recall": 0.6432,
+    "f1": 0.6646001239925604,
     "confusion_matrix": [
       [
-        51190,
-        19662
+        5307,
+        2193
       ],
       [
-        24397,
-        47528
+        2676,
+        4824
       ]
     ]
   },
   "test": {
-    "rows": 142777,
-    "accuracy": 0.6907765256308789,
-    "majority_accuracy": 0.5037576080180981,
-    "precision": 0.7068408275122503,
-    "recall": 0.6598262078554049,
-    "f1": 0.682524844318525,
+    "rows": 15000,
+    "accuracy": 0.6720666666666667,
+    "majority_accuracy": 0.5,
+    "precision": 0.6844889206576126,
+    "recall": 0.6384,
+    "f1": 0.6606416005519145,
     "confusion_matrix": [
       [
-        51169,
-        19683
+        5293,
+        2207
       ],
       [
-        24467,
-        47458
+        2712,
+        4788
       ]
     ]
   }
